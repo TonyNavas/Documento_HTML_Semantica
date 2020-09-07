@@ -2,26 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pagina HTML con semantica</title>
+    <title>Mi pagina(Semantica)</title>
 </head>
 <body>
     <header>
-        <!--<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/html-1024x341.png" width="1400px" height="300px" alt="">-->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/UraccanLOGOMEJ.jpg" width=" 30px" alt="">
         <h1>Tecnicas de diseño en HTML</h1>
         <p>Para crear una pagina web en HTML necesitamos saber que es html</p>
         <p></p>
     </header>
     <nav>
         <ul>
-            <li><a href="">Articulo1</a></li>
-            <li><a href="">Articulo2</a></li>
-            <li><a href="">Articulo3</a></li>
+            <li><a href="#">Articulo1</a></li>
+            <li><a href="#">Articulo2</a></li>
+            <li><a href="#">Articulo3</a></li>
         </ul>
     </nav>
     <main>
         <article>
         <header>
-       <!-- <img src="https://s3-us-west-2.amazonaws.com/devcodepro/media/blog/que-es-html.jpg" width="300px" alt="">-->
+       <img src="https://s3-us-west-2.amazonaws.com/devcodepro/media/blog/que-es-html.jpg" width="400px" alt="">
         <section>
         <h2>¿Que es HTML?</h2>
         <p>Una página HTML es un documento o archivo de texto que tienen la extensión .html o .htm, este tipo de archivo se puede abrir con un editor de textos para editar el código o con un navegador de Internet para visualizar la página que resulte del código HTML escrito.
@@ -33,13 +33,16 @@
         </section>
         <section>
             <h2>¿Que es semantica en HTML?</h2>
+            <img src="https://miro.medium.com/max/1124/0*X7MpwofsIa7mO2HG." alt="">
             <p>Para entender el HTML semántico podemos comenzar por revisar el significado de semántica: La semántica es la parte de la lingüística que estudia el significado de las expresiones lingüísticas.
                 La semántica en el HTML y HTML5 se refiere al significado o información extra que otorgan los elementos o etiquetas del lenguaje, información que define o describe el contenido, función o sección que contienen.
                 Esta información es lo que permite que un documento se pueda rastrear de mejor manera. Ayuda a que el contenido se muestre de manera consistente en diferentes aplicaciones y contextos, además de ser fundamental para otorgar accesibilidad y funcionalidad con tecnología de asistencia como lectores de contenido.</p>
         </section>
         <section>
             <h2>Caracteristicas basicas para el diseño</h2>
+            <img src="https://blog.embluemail.com/wp-content/uploads/2018/02/diseniook-750x422_emblue.png" width="500px" alt="">
             <h2>Estructura fundamental para un fichero HTML</h2>
+            <img src="https://desarrolladoresweb.org/wp-content/uploads/Estructura-basica-de-un-documento-html.jpg" width="500px" alt="">
             <p>Todas las TAGs de HTML van cerradas entre los caracteres menor que (<) mayor que (>), como por ejemplo < html > ademas la mayor parte de ellas son dobles
             en el sentido de que hay un TAG de comienzo y otro de final y entre ambas esta el texto afectado por dicgas TAGs, la marca final de comienzo pero incluyendo
                una barra (/) por ejemplo < html > < /html ></p>
@@ -47,19 +50,46 @@
         <section>
         <pre>
             <code>
-                &lt;html&gt;
-                    &lt;head&gt;
-                        &lt;title>Bienvenido&lt;/title&gt;
-                    &lt;/head&gt;
-                    &lt;body&gt;
-                        &lt;h1&gt;Titulo1&lt;/h1&gt;
-                    &lt;/body&gt;
-                &lt;/html&gt;
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang="en"&gt;
+            &lt;head&gt;
+                    &lt;title>Document&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;header&gt;
+                        &lt;h1&gt;Mi sitio&lt;/h1&gt;
+                        &lt;img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/UraccanLOGOMEJ.jpg" width="100px" alt=""&gt;
+                        &lt;nav&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;Opcion 1&lt;/li&gt;
+                                &lt;li&gt;Opcion 2&lt;/li&gt;
+                                &lt;li&gt;Opcion 3&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/nav&gt;
+                    &lt;/header&gt;
+                    &lt;main&gt;
+                        &lt;section&gt;
+                            &lt;article&gt;
+                                &lt;h2&gt;Titulo de contenido&lt;/h2&gt;
+                                &lt;p&gt;Contenido&lt;/p&gt;
+                            &lt;/article&gt;
+                        &lt;/section&gt;
+                        &lt;aside&gt;
+                            &lt;h&gt;>Titulo de contenido&lt;/h3&gt;
+                            &lt;p&gt;Contenido&lt;/p&gt;
+                        &lt;/aside&gt;
+                    &lt;/main&gt;
+                    &lt;footer&gt;
+                    &lt;&lt;p&gt;Pie de pagina&lt;/p&gt;
+                    &lt;/footer&gt;
+                &lt;/body&gt;
+                &lt;/html&lt;
             </code>
         </pre>
         </section>
         <section>
             <h2>Etiquetas</h2>
+            <img src="https://websgalicia.es/blog/wp-content/uploads/etiquetas-html.jpg" width="400px" alt="">
             <p>Las etiquetas HTML son fragmentos de código que permiten crear elementos HTML, estructuras básicas del lenguaje de programación HTML en el que se escriben las páginas web porque es el que entienden los navegadores.
                 El formato de una etiqueta HTML es un fragmento de texto encerrado entre corchetes angulares < >, y cada elemento HTML tiene una etiqueta de inicio del tipo < etiqueta> y suele terminar con una etiqueta de cierre que lleva una barra inclinada al principio < /etiqueta>.
             </p>
@@ -69,162 +99,190 @@
             </p>
         </section>
         <section>
-            <h2>Etiquetas de elemento de raiz</h2>
-        </section>
-        <section>
-            <TABLE BORDER>
+            <details>
+                <summary>Etiquetas de elemento de raiz</summary>
+                <section>
+                <TABLE BORDER>
+                    <TR>
+                        <TH>Etiquetas</TH>
+                        <TH> ¿Para que sirve?</HTML></TH>
+                    </TR>
+                    <TR ALIGN=center>
+                        <TD> < !doctype html > </TD>
+                        <TD> Define que el documento esta bajo el estandar de HTML 5 </TD>
+                    </TR>
+                    <TR>
+                        <TD ALIGN=center>< html ></TD>
+                        <TD ALIGN=center>Representa la raíz de un documento HTML</TD>
+                    </TR>
+                </TABLE>
+            </section>
+            </details>
+            <section>
+                <details>
+                <summary>Metadatos del documento</summary>
+                <section>
+             <TABLE BORDER>
                 <TR>
                     <TH>Etiquetas</TH>
                     <TH> ¿Para que sirve?</HTML></TH>
                 </TR>
                 <TR ALIGN=center>
-                    <TD> < !doctype html > </TD>
-                    <TD> Define que el documento esta bajo el estandar de HTML 5 </TD>
+                    <TD> < head> </TD>
+                    <TD>Cabecera del documento HTML. </TD>
                 </TR>
-                <TR>
-                    <TD ALIGN=center>< html ></TD>
-                    <TD ALIGN=center>Representa la raíz de un documento HTML</TD>
+                <TR TR ALIGN=center>
+                    <TD> < title></TD>
+                    <TD>Define el título del documentoL</TD>
+                </TR>
+                <TR ALIGN=center>
+                    <TD> < base> </TD>
+                    <TD> Define la URL base para las URLs relativas en la página. </TD>
+                </TR>
+                <TR TR ALIGN=center>
+                    <TD> < link></TD>
+                    <TD>	Usada para enlazar JavaScript y CSS externos con el documento HTML actual.</TD>
+                </TR>
+                <TR ALIGN=center>
+                    <TD> < meta> </TD>
+                    <TD> Define los metadatos que no pueden ser definidos usando otro elemento HTML.</TD>
+                </TR>
+                <TR TR ALIGN=center>
+                    <TD>  style > </TD>
+                    <TD>Etiqueta de estilo usada para escribir CSS en línea</TD>
                 </TR>
             </TABLE>
+        </section>
+        </details>
+            </section>
                 <section>
-                    <h2>Metadatos del documento</h2>
-                </section>
+                    <details>
+                        <summary>Secciones</summary>
+                        <section>
+                            <TABLE BORDER>
+                                <TR>
+                                    <TH>Etiquetas</TH>
+                                    <TH> ¿Para que sirve?</HTML></TH>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < body></TD>
+                                    <TD>	Incluye el contenido principal de un documento HTML. Solo hay un elemento < body> en un documento. </TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < section></TD>
+                                    <TD>Define una sección en un documento. </TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < nav></TD>
+                                    <TD>Define una sección que solamente contiene enlaces de navegación </TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < article></TD>
+                                    <TD>Define contenido autónomo que podría existir independientemente del resto del contenido. </TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < aside></TD>
+                                    <TD>Define algunos contenidos vagamente relacionados con el resto del contenido de la página. </TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < h1>,< h2>,< h3>,< h4>,< h5>,< h6></TD>
+                                    <TD>Los elemento de cabecera implementan seis niveles de cabeceras de documentos; < h1> es la de mayor y < h6> es la de menor impotancia. </TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < header></TD>
+                                    <TD>	Define la cabecera de una página o sección. </TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < footer></TD>
+                                    <TD>Define el pie de una página o sección. Usualmente contiene un mensaje de derechos de autoría. </TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < address></TD>
+                                    <TD>Define una sección que contiene información de contacto. </TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> <  main>></TD>
+                                    <TD>Define el contenido principal o importante en el documento. Solamente existe un elemento < main> en el documento.</TD>
+                                </TR>
+                        </table>
+                        </section>
+                    </details>
                 <section>
-                    <TABLE BORDER>
-                        <TR>
-                            <TH>Etiquetas</TH>
-                            <TH> ¿Para que sirve?</HTML></TH>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < head> </TD>
-                            <TD>Cabecera del documento HTML. </TD>
-                        </TR>
-                        <TR TR ALIGN=center>
-                            <TD> < title></TD>
-                            <TD>Define el título del documentoL</TD>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < base> </TD>
-                            <TD> Define la URL base para las URLs relativas en la página. </TD>
-                        </TR>
-                        <TR TR ALIGN=center>
-                            <TD> < link></TD>
-                            <TD>	Usada para enlazar JavaScript y CSS externos con el documento HTML actual.</TD>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < meta> </TD>
-                            <TD> Define los metadatos que no pueden ser definidos usando otro elemento HTML.</TD>
-                        </TR>
-                        <TR TR ALIGN=center>
-                            <TD>  style > </TD>
-                            <TD>Etiqueta de estilo usada para escribir CSS en línea</TD>
-                        </TR>
-                    </TABLE>
+                    <details>
+                        <summary>Agrupación de Contenido</summary>
+                        <section>
+                            <TABLE BORDER>
+                                <TR>
+                                    <TH>Etiquetas</TH>
+                                    <TH> ¿Para que sirve?</HTML></TH>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < p></TD>
+                                    <TD>	Define una parte que debe mostrarse como un párrafo. </TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < hr></TD>
+                                    <TD>Introduce una separción entre parrafos de una sección o articulo o cualquier contenido. </TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < pre></TD>
+                                    <TD>	Indica que su contenido esta preformateado y que este formato debe ser preservado. </TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < blockquote></TD>
+                                    <TD>Incluye un contenido citado desde otra fuente. </TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < ol></TD>
+                                    <TD>Define una lista ordenada de artículos. </TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < ul></TD>
+                                    <TD>Define una lista de artículos sin orden. </TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < li></TD>
+                                    <TD>Define un artículo de una lista ennumerada </TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < dl></TD>
+                                    <TD>Define una lista de definiciones, es decir, una lista de términos y sus definiciones asociadas. </TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < dt></TD>
+                                    <TD>Representa un término definido por el siguiente < dd>. </TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < dd></TD>
+                                    <TD>Representa la definición de los terminos listados antes que él.</TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < figure></TD>
+                                    <TD>	Representa una figura ilustrada como parte del documento.</TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < figcaption></TD>
+                                    <TD>Representa la leyenda de una figura.</TD>
+                                </TR>
+                                <TR ALIGN=center>
+                                    <TD> < div></TD>
+                                    <TD>Incluye un contenedor genérico sin ningún significado especial.</TD>
+                                </TR>
+                        </table>
+                        </section>
+                    </details>
                 </section>
-                <section>
-                    <h2>Secciones</h2>
-                </section>
-                <section>
-                    <TABLE BORDER>
-                        <TR>
-                            <TH>Etiquetas</TH>
-                            <TH> ¿Para que sirve?</HTML></TH>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < body></TD>
-                            <TD>	Incluye el contenido principal de un documento HTML. Solo hay un elemento <body> en un documento. </TD>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < section></TD>
-                            <TD>Define una sección en un documento. </TD>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < nav></TD>
-                            <TD>Define una sección que solamente contiene enlaces de navegación </TD>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < article></TD>
-                            <TD>Define contenido autónomo que podría existir independientemente del resto del contenido. </TD>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < aside></TD>
-                            <TD>Define algunos contenidos vagamente relacionados con el resto del contenido de la página. </TD>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < h1>,< h2>,< h3>,< h4>,< h5>,< h6></TD>
-                            <TD>Los elemento de cabecera implementan seis niveles de cabeceras de documentos; < h1> es la de mayor y < h6> es la de menor impotancia. </TD>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < header></TD>
-                            <TD>	Define la cabecera de una página o sección. </TD>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < footer></TD>
-                            <TD>Define el pie de una página o sección. Usualmente contiene un mensaje de derechos de autoría. </TD>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < address></TD>
-                            <TD>Define una sección que contiene información de contacto. </TD>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> <  main>></TD>
-                            <TD>Define el contenido principal o importante en el documento. Solamente existe un elemento < main> en el documento.</TD>
-                        </TR>
-                </table>
-                </section>
-                <section>
-                    <h3>Agrupación de Contenido</h3>
-                </section>
-                <section>
-                    <TABLE BORDER>
-                        <TR>
-                            <TH>Etiquetas</TH>
-                            <TH> ¿Para que sirve?</HTML></TH>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < body></TD>
-                            <TD>	Incluye el contenido principal de un documento HTML. Solo hay un elemento <body> en un documento. </TD>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < section></TD>
-                            <TD>Define una sección en un documento. </TD>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < nav></TD>
-                            <TD>Define una sección que solamente contiene enlaces de navegación </TD>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < article></TD>
-                            <TD>Define contenido autónomo que podría existir independientemente del resto del contenido. </TD>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < aside></TD>
-                            <TD>Define algunos contenidos vagamente relacionados con el resto del contenido de la página. </TD>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < h1>,< h2>,< h3>,< h4>,< h5>,< h6></TD>
-                            <TD>Los elemento de cabecera implementan seis niveles de cabeceras de documentos; < h1> es la de mayor y < h6> es la de menor impotancia. </TD>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < header></TD>
-                            <TD>	Define la cabecera de una página o sección. </TD>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < footer></TD>
-                            <TD>Define el pie de una página o sección. Usualmente contiene un mensaje de derechos de autoría. </TD>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> < address></TD>
-                            <TD>Define una sección que contiene información de contacto. </TD>
-                        </TR>
-                        <TR ALIGN=center>
-                            <TD> <  main>></TD>
-                            <TD>Define el contenido principal o importante en el documento. Solamente existe un elemento < main> en el documento.</TD>
-                        </TR>
-                </table>
-                </section>
+                
         </article>
         </header>
+        <footer>
+            <ul>
+                <li><h4>Mi sitio</h4></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Ayuda</a></li>
+                <li><a href="#">Legal</a></li>
+            </ul>
+        </footer>
     </main>
 </body>
 </html>
